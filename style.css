@@ -8,6 +8,7 @@ html {scrollbar-width: none;}
 
 h2{
 	font-family: OCR A Std, monospace;
+	font-size: 150%;
 }
 
 h2.content{
@@ -21,9 +22,15 @@ h3{
 }
 
 p {
-		font-family: Courier New, monospace;
+		font-family: OCR A Std, monospace;
 		text-align: justify;
+		font-size: 110%;
 }
+
+li {
+	font-family: OCR A Std, monospace;
+	text-align: justify;
+	font-size: 110%;}
 
 /*PAGE D'ACCUEIL*/
 
@@ -45,7 +52,7 @@ p {
 #navigation {
   list-style-type: none;
   margin: 0;
-  padding-left: 25vh;
+  padding-left: 15vh;
   overflow: hidden;
   background-color: #transparent;
   position: fixed;
@@ -77,16 +84,33 @@ li.nav a{
   display: block;
   color: black;
   text-align: center;
-  padding: 18px 16px;
+  padding: 16px 18px;
   text-decoration: none;
 	font-family: OCR A Std, monospace;
-	font-size: small;
+	font-size: 90%;
 	height: 50px;
 }
 
 li.nav a:hover {
 	background-color: #29E2D0;
 	transition: 0.2s;
+}
+
+/*BOUTON*/
+
+button{
+	font-family: OCR A Std, monospace;
+	font-size: 130%;
+	background-color: white;
+	border:2px solid #e6a374;
+	padding: 15px 30px 15px 30px;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: #e6a374;
+	transition: 0.2s;
+	cursor: pointer;
 }
 
 /*CLASSES*/
@@ -103,22 +127,24 @@ li.nav a:hover {
 	justify-content: center;
 	display: grid;
 	width: 33.3vw;
+	padding-top: 60px;
+	line-height: 1.5;
 }
 
 .cool{
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 150px;
+	padding-right: 150px;
 	justify-content: center;
 	display: grid;
 	width: 50vw;
 }
 
-.containtext li{
-	text-align: justify;
-	margin-left: 20vw;
-}
-
 /*IDS*/
+
+#dl {
+	padding-top: 60px;
+	text-align: center;
+}
 
 #img1{
 	background:url(moi.jpg);

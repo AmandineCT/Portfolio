@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
 });
 
 //popups
-
+/*
 const popupContainer = document.querySelector('#popup-container');
 const popup = popupContainer.querySelector('#popup');
 const titrePopup = popupContainer.querySelector("#popupTitle");
@@ -25,3 +25,4 @@ closeTop.addEventListener('click', () => {
 closeBottom.addEventListener('click', () => {
     popupContainer.classList.remove('active');
 });
+*/

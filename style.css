@@ -12,7 +12,7 @@ h2{
 }
 
 h2.content{
-	padding-top: 60px;
+	padding-top: 70px;
 	text-align: center;
 }
 
@@ -30,7 +30,14 @@ p {
 li {
 	font-family: OCR A Std, monospace;
 	text-align: justify;
-	font-size: 110%;}
+	font-size: 110%;
+}
+
+/*img {
+	max-width: 100%;
+	height: auto;
+}
+*/
 
 /*PAGE D'ACCUEIL*/
 
@@ -52,7 +59,7 @@ li {
 #navigation {
   list-style-type: none;
   margin: 0;
-  padding-left: 15vh;
+  padding-left: 13vh;
   overflow: hidden;
   background-color: #transparent;
   position: fixed;
@@ -123,17 +130,21 @@ button:hover{
 	padding-top: 60px;
 }
 
+#pros p{
+	padding-left: 115px;
+	padding-right: 115px;
+}
+
 .skills{
 	justify-content: center;
 	display: grid;
 	width: 33.3vw;
-	padding-top: 60px;
 	line-height: 1.5;
 }
 
 .cool p{
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 115px;
+	padding-right: 115px;
 }
 /*IDS*/
 
@@ -160,6 +171,12 @@ button:hover{
 	text-align: center;
 }
 
+#pros{
+	width: 100vw;
+	display: flex;
+	text-align: center;
+}
+
 #interet{
 	width: 100vw;
 	display: flex;
@@ -167,6 +184,30 @@ button:hover{
 }
 
 #img2{
+	background:url(whitelego.png);
+	background-position: center;
+	background-size:225px;
+	border-radius:50%;
+	width:160px;
+	height:160px;
+	border:2px solid #29E2D0;
+	margin: auto;
+	margin-top: 60px;
+}
+
+#img3{
+	background:url(samso.jpg);
+	background-position: 180px 155px;
+	background-size:200px;
+	border-radius:50%;
+	width:160px;
+	height:160px;
+	border:2px solid #29E2D0;
+	margin: auto;
+	margin-top: 60px;
+}
+
+#img6{
 	background:url(sf.jpg);
 	background-position: 330px 255px;
 	background-size:350px;
@@ -178,7 +219,7 @@ button:hover{
 	margin-top: 60px;
 }
 
-#img3{
+#img7{
 	background:url(travel.jpg);
 	background-position: 240px 255px;
 	background-size:250px;
@@ -225,9 +266,4 @@ button:hover{
 	border:2px solid white;
 	transition: 0.2s;
 	cursor: pointer;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
 }

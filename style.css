@@ -42,7 +42,7 @@ li {
 /*PAGE D'ACCUEIL*/
 #accueil {
   background-color: white;
-  background-image: url(cyber.jpg);
+  background-image: url(img/cyber.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -144,7 +144,7 @@ button:hover {
 /*IMAGES*/
 
 #img1 {
-  background: url(moi.jpg);
+  background: url(img/moi.jpg);
   background-position: 260px 355px;
   background-size: 300px;
   border-radius: 50%;
@@ -156,7 +156,7 @@ button:hover {
 }
 
 #img2 {
-  background: url(esaip.jpg);
+  background: url(img/esaip.jpg);
   background-position: 215px 182px;
   background-size: 250px;
   border-radius: 50%;
@@ -168,7 +168,7 @@ button:hover {
 }
 
 #img3 {
-  background: url(poliwar.png);
+  background: url(img/poliwar.png);
   background-position: 211px 175px;
   background-size: 240px;
   border-radius: 50%;
@@ -180,9 +180,9 @@ button:hover {
 }
 
 #img4 {
-  background: url(whitelego.png);
-  background-position: center;
-  background-size: 225px;
+  background: url(img/whitelego.png);
+  background-position: 288px 230px;
+  background-size: 340px;
   border-radius: 50%;
   width: 160px;
   height: 160px;
@@ -192,9 +192,9 @@ button:hover {
 }
 
 #img5 {
-  background: url(samso.jpg);
-  background-position: 180px 155px;
-  background-size: 200px;
+  background: url(img/samso.jpg);
+  background-position: 275px 220px;
+  background-size: 350px;
   border-radius: 50%;
   width: 160px;
   height: 160px;
@@ -204,7 +204,7 @@ button:hover {
 }
 
 #img6 {
-  background: url(cap.jpg);
+  background: url(img/cap.jpg);
   background-position: 196px 245px;
   background-size: 240px;
   border-radius: 50%;
@@ -216,7 +216,7 @@ button:hover {
 }
 
 #img7 {
-  background: url(lab.png);
+  background: url(img/lab.png);
   background-position: 175px 169px;
   background-size: 195px;
   border-radius: 50%;
@@ -228,7 +228,7 @@ button:hover {
 }
 
 #img8 {
-  background: url(sf.jpg);
+  background: url(img/sf.jpg);
   background-position: 330px 255px;
   background-size: 350px;
   border-radius: 50%;
@@ -240,7 +240,7 @@ button:hover {
 }
 
 #img9 {
-  background: url(travel.jpg);
+  background: url(img/travel.jpg);
   background-position: 240px 255px;
   background-size: 250px;
   border-radius: 50%;

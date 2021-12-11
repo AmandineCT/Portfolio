@@ -2,11 +2,11 @@
 
 const navbar = document.querySelector('#navigation');
 window.addEventListener('scroll', () => {
-    if(window.scrollY > 50) {
-        navbar.classList.add('scroll');
-    } else {
-        navbar.classList.remove('scroll');
-    }
+  if (window.scrollY > 50) {
+    navbar.classList.add('scroll');
+  } else {
+    navbar.classList.remove('scroll');
+  }
 });
 
 //popups
@@ -25,4 +25,6 @@ closeTop.addEventListener('click', () => {
 closeBottom.addEventListener('click', () => {
     popupContainer.classList.remove('active');
 });
+
+const listProjet = document.querySelectorAll('.linkPro');
 */

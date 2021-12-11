@@ -80,11 +80,6 @@ li {
   opacity: 0.9;
 }
 
-/*#navigation.scroll:hover{
-	background-color: red;
-	transition: 0.2s;
- }*/
-
 li.nav a {
   float: left;
   display: block;

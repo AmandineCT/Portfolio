@@ -8,23 +8,3 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('scroll');
   }
 });
-
-//popups
-/*
-const popupContainer = document.querySelector('#popup-container');
-const popup = popupContainer.querySelector('#popup');
-const titrePopup = popupContainer.querySelector("#popupTitle");
-const popupParts =  popupContainer.querySelectorAll('.popupPart');
-let closeTop = document.querySelector('#closeTop');
-let closeBottom = document.querySelector('#closeBottom');
-
-closeTop.addEventListener('click', () => {
-    popupContainer.classList.remove('active');
-});
-
-closeBottom.addEventListener('click', () => {
-    popupContainer.classList.remove('active');
-});
-
-const listProjet = document.querySelectorAll('.linkPro');
-*/

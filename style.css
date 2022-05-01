@@ -58,7 +58,7 @@ li {
 #navigation {
   list-style-type: none;
   margin: 0;
-  padding-left: 13vh;
+  padding-left: 7vh;
   overflow: hidden;
   background-color: #transparent;
   position: fixed;
@@ -115,6 +115,12 @@ button:hover {
 }
 
 /*CLASSES*/
+
+.soustitre {
+  text-align: center;
+  padding-top: 60px;
+}
+
 .containtext {
   width: 50vw;
   text-align: center;
@@ -123,7 +129,23 @@ button:hover {
   padding-top: 60px;
 }
 
-.skills {
+.containtextprojet {
+  width: 40vw;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  padding-top: 60px;
+}
+
+.containtextlearn {
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  padding-top: 60px;
+}
+
+.skills, .projets{
   justify-content: center;
   display: grid;
   width: 33.3vw;
@@ -246,38 +268,54 @@ button:hover {
   margin-top: 60px;
 }
 
+#img10 {
+  background: url(img/cterme.jpg);
+  background-position: 185px 170px;
+  background-size: 170px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #29E2D0;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#img11 {
+  background: url(img/mterme.jpg);
+  background-position: 237px 184px;
+  background-size: 294px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #29E2D0;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#img12 {
+  background: url(img/lterme.jpg);
+  background-position: 240px 230px;
+  background-size: 250px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #29E2D0;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#img13 {
+  background: url(img/mindmap.png);
+  background-size: 1000px;
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  margin-top: 60px;
+}
+
 /*IDS*/
 
-#dl {
-  padding-top: 60px;
-  text-align: center;
-}
-
-#parc {
-  width: 100vw;
-  display: flex;
-  text-align: center;
-}
-
-#skill {
-  width: 100vw;
-  display: flex;
-  text-align: center;
-}
-
-#pros {
-  width: 100vw;
-  display: flex;
-  text-align: center;
-}
-
-#assos {
-  width: 100vw;
-  display: flex;
-  text-align: center;
-}
-
-#interet {
+.section {
   width: 100vw;
   display: flex;
   text-align: center;

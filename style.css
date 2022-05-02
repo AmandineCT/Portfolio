@@ -116,10 +116,14 @@ button:hover {
 
 /*CLASSES*/
 
+/*bouton CV et titre h3 centré*/
+
 .soustitre {
   text-align: center;
   padding-top: 60px;
 }
+
+/*affichage du texte*/
 
 .containtext {
   width: 50vw;
@@ -129,29 +133,31 @@ button:hover {
   padding-top: 60px;
 }
 
+/*paragraphes sur mes projets*/
+
 .containtextprojet {
-  width: 40vw;
+  width: 33.3vw;
   text-align: center;
   margin: auto;
   line-height: 1.5;
   padding-top: 60px;
 }
 
-.containtextlearn {
-  width: 80vw;
-  text-align: center;
-  margin: auto;
-  line-height: 1.5;
-  padding-top: 60px;
+.containtextprojet p {
+  justify-content: center;
 }
 
-.skills, .projets{
+/*affichages des éléments sur 3 colonnes*/
+
+.skills {
   justify-content: center;
   display: grid;
   width: 33.3vw;
   line-height: 1.5;
 	padding-top: 40px;
 }
+
+/*paragraphes*/
 
 .texte p {
   padding-left: 115px;
@@ -313,7 +319,16 @@ button:hover {
   margin-top: 60px;
 }
 
-/*IDS*/
+#img14 {
+  background: url(img/mind2.png);
+  background-size: 1400px;
+  width: 1400px;
+  height: 530px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/*affichage des sections*/
 
 .section {
   width: 100vw;

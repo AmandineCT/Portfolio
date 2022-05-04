@@ -43,6 +43,7 @@ li {
 #accueil {
   background-color: white;
   background-image: url(img/cyber.jpg);
+  max-width:100vw;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -63,7 +64,7 @@ li {
   background-color: #transparent;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 50px;
   position: fixed;
 }
@@ -160,14 +161,15 @@ button:hover {
 /*paragraphes*/
 
 .texte p {
-  padding-left: 115px;
-  padding-right: 115px;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
 }
 
 /*IMAGES*/
 
 #img1 {
   background: url(img/moi.jpg);
+  max-width:100vw;
   background-position: 260px 355px;
   background-size: 300px;
   border-radius: 50%;
@@ -180,6 +182,7 @@ button:hover {
 
 #img2 {
   background: url(img/esaip.jpg);
+  max-width:100vw;
   background-position: 215px 182px;
   background-size: 250px;
   border-radius: 50%;
@@ -192,6 +195,7 @@ button:hover {
 
 #img3 {
   background: url(img/poliwar.png);
+  max-width:100vw;
   background-position: 211px 175px;
   background-size: 240px;
   border-radius: 50%;
@@ -204,6 +208,7 @@ button:hover {
 
 #img4 {
   background: url(img/whitelego.png);
+  max-width:100vw;
   background-position: 288px 230px;
   background-size: 340px;
   border-radius: 50%;
@@ -216,6 +221,7 @@ button:hover {
 
 #img5 {
   background: url(img/samso.jpg);
+  max-width:100vw;
   background-position: 275px 220px;
   background-size: 350px;
   border-radius: 50%;
@@ -228,6 +234,7 @@ button:hover {
 
 #img6 {
   background: url(img/cap.jpg);
+  max-width:100vw;
   background-position: 196px 245px;
   background-size: 240px;
   border-radius: 50%;
@@ -240,6 +247,7 @@ button:hover {
 
 #img7 {
   background: url(img/lab.png);
+  max-width:100vw;
   background-position: 175px 169px;
   background-size: 195px;
   border-radius: 50%;
@@ -252,6 +260,7 @@ button:hover {
 
 #img8 {
   background: url(img/sf.jpg);
+  max-width:100vw;
   background-position: 330px 255px;
   background-size: 350px;
   border-radius: 50%;
@@ -264,6 +273,7 @@ button:hover {
 
 #img9 {
   background: url(img/travel.jpg);
+  max-width:100vw;
   background-position: 240px 255px;
   background-size: 250px;
   border-radius: 50%;
@@ -276,6 +286,7 @@ button:hover {
 
 #img10 {
   background: url(img/cterme.jpg);
+  max-width:100vw;
   background-position: 185px 170px;
   background-size: 170px;
   border-radius: 50%;
@@ -288,6 +299,7 @@ button:hover {
 
 #img11 {
   background: url(img/mterme.jpg);
+  max-width:100vw;
   background-position: 237px 184px;
   background-size: 294px;
   border-radius: 50%;
@@ -300,6 +312,7 @@ button:hover {
 
 #img12 {
   background: url(img/lterme.jpg);
+  max-width:100vw;
   background-position: 240px 230px;
   background-size: 250px;
   border-radius: 50%;
@@ -312,6 +325,7 @@ button:hover {
 
 #img13 {
   background: url(img/mindmap.png);
+  max-width:100vw;
   background-size: 1000px;
   width: 1000px;
   height: 600px;
@@ -321,6 +335,7 @@ button:hover {
 
 #img14 {
   background: url(img/mind2.png);
+  max-width:100vw;
   background-size: 1400px;
   width: 1400px;
   height: 530px;
@@ -332,6 +347,7 @@ button:hover {
 
 .section {
   width: 100vw;
+  max-width: 100vw;
   display: flex;
   text-align: center;
 }
@@ -340,6 +356,7 @@ button:hover {
 
 #contact {
   width: 100vw;
+  max-width: 100vw;
   margin-top: 60px;
   padding-bottom: 40px;
   background-color: #29BDE2;
@@ -374,4 +391,34 @@ button:hover {
   border: 2px solid white;
   transition: 0.2s;
   cursor: pointer;
+}
+
+/*AFFICHAGE SUR MOBILE*/
+
+@media (min-width: 480px) and (max-width: 780px) {
+
+.col {
+  width: 100vw;
+}
+
+  .containtext {
+    width: 90vw;
+  }
+
+  .containtextprojet {
+    width: 90vw;
+  }
+
+#img13 {
+  background-size: 400px;
+  width: 400px;
+  height: 225px
+}
+
+#img14 {
+  background-size: 400px;
+  width: 400px;
+  height: 150px
+}
+
 }

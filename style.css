@@ -396,11 +396,6 @@ button:hover {
 /*AFFICHAGE SUR MOBILE*/
 
 @media (min-width: 480px) and (max-width: 780px) {
-
-.col {
-  width: 100vw;
-}
-
   .containtext {
     width: 90vw;
   }

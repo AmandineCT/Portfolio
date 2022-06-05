@@ -395,25 +395,22 @@ button:hover {
 
 /*AFFICHAGE SUR MOBILE*/
 
-@media (min-width: 480px) and (max-width: 780px) {
-  .containtext {
-    width: 90vw;
-  }
+@media (min-width: 300px) and (max-width: 1000px) {
 
-  .containtextprojet {
-    width: 90vw;
-  }
-
-#img13 {
-  background-size: 400px;
-  width: 400px;
-  height: 225px
+#navigation{
+  display: none;
 }
 
-#img14 {
-  background-size: 400px;
-  width: 400px;
-  height: 150px
+#accueil{
+  background-image: url(img/cyberphone.jpg);
+  background-size: auto;
 }
 
+#why {
+  display: none;
+}
+
+.hiddenimg {
+  display: none;
+}
 }

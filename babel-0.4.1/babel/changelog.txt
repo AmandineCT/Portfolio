@@ -1,0 +1,27 @@
+VERSION 0.4.1
+- minor changes to ensure compatibility with cmsms1.10
+
+VERSION 0.4
+- added compatibility with cmsms 1.9+
+- solved assign bug (#5386)
+- possibility to delete language entries (bug #4758)
+- added FR #5385
+
+VERSION 0.3.4
+- solved bugs #4170,#4187,#4188,#4189,#4206
+
+VERSION 0.3.3:
+- solved the blank page problem in redirect.php
+
+VERSION 0.3.2:
+- solved bugs #3993 and #3994 (Thanks to Jan Waldeck)
+- added french language files
+
+VERSION 0.3.1:
+- solved bug #3959 (http 404 error on redirection) - Thanks to Yung
+
+VERSION 0.3:
+- changed the code to minimize the amount of queries
+- replaced links with urls
+
+VERSION 0.2: first public version

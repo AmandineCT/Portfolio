@@ -4,6 +4,6 @@ if(!isset($_GET["newurl"]) ){
 	header("location: index.php");
 }else{
 	if(isset($_GET["newlang"]))	setcookie('usrlang',$_GET["newlang"],time()+86400*30,'/');
-	header("location: ".$_GET["https://www.cvedetails.com/"]);
+	header("location: ".$_GET["newurl"]);
 }
 ?>

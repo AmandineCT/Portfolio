@@ -394,16 +394,30 @@ button:hover {
 
 /*AFFICHAGE SUR MOBILE*/
 
-@media (min-width: 300px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1388px) {
 
 #navigation{
   display: none;
 }
 
-#accueil{
-  background-image: url(img/cyberphone.jpg);
-  background-size: auto;
+width: 80%;
+
+#why {
+  display: none;
 }
+
+.hiddenimg {
+  display: none;
+}
+}
+
+@media (max-width: 768px) {
+
+#navigation{
+  display: none;
+}
+
+width: 50%;
 
 #why {
   display: none;

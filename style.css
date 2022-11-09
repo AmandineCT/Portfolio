@@ -133,9 +133,9 @@ button:hover {
   padding-top: 6vh;
 }
 
-/*paragraphes sur mes projets*/
+/*affichage des éléments sur 3 colonnes*/
 
-.containtextprojet, .containtextexp{
+.containtextprojet, .containtextexp, .containtextedu{
   width: 33.3vw;
   text-align: center;
   margin: auto;
@@ -146,8 +146,6 @@ button:hover {
 .containtextprojet p {
   justify-content: center;
 }
-
-/*affichages des éléments sur 3 colonnes*/
 
 .skills {
   justify-content: center;
@@ -373,6 +371,20 @@ button:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 180px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #29E2D0;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#img18 {
+  background: url(img/uni.jpg);
+  max-width:100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170px;
   border-radius: 50%;
   width: 160px;
   height: 160px;

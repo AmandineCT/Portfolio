@@ -341,31 +341,6 @@ button:hover {
 }
 
 #img15 {
-  background: url(img/chess.jpg);
-  max-width:100vw;
-  background-position: 160px 157px;
-  background-size: 157px;
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  border: 2px solid #29E2D0;
-  margin: auto;
-  margin-top: 60px;
-}
-
-#img16 {
-  background: url(img/climb.jpg);
-  max-width:100vw;
-  background-size: 170px;
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  border: 2px solid #29E2D0;
-  margin: auto;
-  margin-top: 60px;
-}
-
-#img17 {
   background: url(img/tehtris.jpg);
   max-width:100vw;
   background-repeat: no-repeat;
@@ -379,7 +354,7 @@ button:hover {
   margin-top: 60px;
 }
 
-#img18 {
+#img16 {
   background: url(img/uni.jpg);
   max-width:100vw;
   background-repeat: no-repeat;
